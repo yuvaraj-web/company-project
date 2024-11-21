@@ -268,3 +268,182 @@
 .fine{
     margin-top: 130px;
 }
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .list1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: inherit;
+    }
+
+    .list11 {
+        margin-right: 0;
+        text-align: center;
+        font-size: larger;
+    }
+
+    .list {
+        margin: 10px 0;
+        font-size: medium;
+    }
+
+    .main1-box {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 28px;
+    }
+
+    .mainn {
+        font-size: 16px;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .maitag a {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .hero22, .hero33, .prefinal-box, .contact {
+        height: auto;
+    }
+
+    .head-box span {
+        margin: auto;
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .head-box1, .head-box2 {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .head-list1, .head-list2 {
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .about-box {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .blog-list {
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .final-box {
+        width: 90%;
+        margin: auto;
+    }
+
+    .firstname, .lastname, .emailid, .subject, .message {
+        width: 90%;
+        margin: auto;
+    }
+
+    .atag {
+        margin: auto;
+    }
+    .icon-1 {
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 20px; 
+        width: 70%; 
+    }
+
+    .icon-1 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .lname{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .list1 {
+        font-size: 14px;
+    }
+
+    .main1-box {
+        font-size: 22px;
+    }
+
+    .mainn {
+        font-size: 14px;
+    }
+
+    .maitag a {
+        font-size: 14px;
+        padding: 5px 10px;
+        width: 80px;
+    }
+
+    .head-box span {
+        font-size: 14px;
+    }
+
+    .head-list1, .head-list2 {
+        font-size: 14px;
+    }
+
+    .about-box span, ul {
+        font-size: 14px;
+    }
+
+    .blog-list h4 {
+        font-size: 20px;
+    }
+
+    .final-box {
+        font-size: 14px;
+    }
+
+    .contact h1 {
+        font-size: 20px;
+    }
+
+    .atag {
+        font-size: 14px;
+    }
+    .icon-1 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -300px;
+        margin-bottom: 500px;
+        width: 90%; 
+    }
+
+    .icon-1 img {
+        width: 100%;
+        height: auto;
+    }
+    .content-box{
+        margin-bottom: 80px;
+    }
+    .list11{
+        font-size:35px;
+        color: red;
+    }
+}
